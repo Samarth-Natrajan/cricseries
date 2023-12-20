@@ -1,0 +1,76 @@
+.Test{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    
+}
+.dataContainer{
+    
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.buttonsContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.testbutton{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+    height: 20px;
+    background-color: #70a03a;
+    color: #ffffff;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 8px;
+    transition: background-color.5s;
+}
+.odibutton{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+    height: 20px;
+    background-color: #70a03a;
+    color: #ffffff;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 8px;
+    transition: background-color.5s;
+}
+.t20button{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+    height: 20px;
+    background-color: #70a03a;
+    color: #ffffff;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 8px;
+    transition: background-color.5s;
+}
+.seriesName{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: max-content;
+    height: 20px;
+    background-color: #111211;
+    color: #ffffff;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 3px;
+    transition: background-color.5s;
+}
